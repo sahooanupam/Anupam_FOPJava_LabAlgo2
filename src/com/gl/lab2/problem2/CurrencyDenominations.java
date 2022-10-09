@@ -39,7 +39,7 @@ public class CurrencyDenominations {
 		}
 		
 
-		
+		System.out.println("Your payment approach in order to give min no of notes will be");
 		for(int i=arr.length-1; i>=0; i--) {
 			if(map.containsKey(arr[i])) {
 				System.out.println(arr[i]+":"+map.get(arr[i]));
